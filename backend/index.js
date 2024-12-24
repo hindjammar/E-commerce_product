@@ -230,6 +230,12 @@ app.get('/popularinwomen',async (req,res)=>{
 
 })
 
+// creating endpoint for adding products in cartdata
+
+app.post('/addtocart', async(req,res)=>{
+    console.log(req.body);
+})
+
 
 
 
